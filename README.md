@@ -3,6 +3,8 @@
 
 **snapcfg** is a minimal configuration validation tool for Python projects. It allows you to load JSON or YAML configuration files and validate them against a simple, JSON-like schema with type checks and constraints.
 
+Uses [`snaparg`](https://github.com/ArchooD2/snaparg)!
+
 ## Features
 
 - ✅ Supports JSON and YAML config files
