@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "snapcfg"
+version = "0.0.1"
+description = "Validate configs against a flexible app-defined schema."
+authors = ["PJ Hayes"]
+license = "MPL-2.0"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
