@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='snapcfg',
-    version='0.0.1',
+    version='0.1.1',
     packages=find_packages(),
     description='Validate configs against a flexible app-defined schema.',
     author='PJ Hayes',
@@ -18,6 +18,13 @@ setup(
     install_requires=[
         'pyyaml',
         'typer',
-        'rich'
+        'rich',
+        'snaparg'
     ],
+    entry_points={
+    'console_scripts': [
+        'snapcfg = snapcfg.__main__:main',
+        ],
+    },
+
 )
