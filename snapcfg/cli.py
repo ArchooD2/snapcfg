@@ -6,6 +6,7 @@ from rich import print
 
 app = typer.Typer()
 
+
 @app.command()
 def validate(config: str, schema: str):
     cfg = load_file(config)
